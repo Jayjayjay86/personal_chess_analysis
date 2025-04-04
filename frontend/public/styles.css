@@ -1,0 +1,36 @@
+/* Add to your CSS file */
+.player-selector {
+    max-width: 400px;
+    margin: 20px 0;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .player-list {
+    list-style: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .player-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .player-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .loading {
+    padding: 10px;
+    text-align: center;
+    color: #666;
+  }
